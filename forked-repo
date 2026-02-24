@@ -1,1 +1,7 @@
+$ curl -s https://api.github.com/repos/YOUR_GITHUB_USERNAME/mcino-Introduction-to-Git-and-GitHub | grep -E 'full_name|fork"|parent' -A 10
 
+  "full_name": "YOUR_GITHUB_mohamdmohsen/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
