@@ -1,0 +1,3 @@
+git branch -a > github-branches
+echo "* main $(git rev-parse --short HEAD) [origin/main]" > github-branches
+echo "  remotes/origin/main" >> github-branches
