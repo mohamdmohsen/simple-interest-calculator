@@ -1,0 +1,10 @@
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/ID | grep -E '"html_url"|"full_name"|"label"' | head -n 10
+
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/ID",
+  "head": {
+    "label": "YOUR_mohamdmohsen:main",
+    "repo": {
+      "full_name": "YOUR_mohamdmohsen/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/YOUR_mohamdmohsen/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
