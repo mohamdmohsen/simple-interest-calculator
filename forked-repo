@@ -1,3 +1,4 @@
+$ cat <<EOF > forked-repo
 $ curl -s https://api.github.com/repos/YOUR_GITHUB_USERNAME/mcino-Introduction-to-Git-and-GitHub | grep -E 'full_name|fork"|parent' -A 10
 
   "full_name": "YOUR_GITHUB_mohamdmohsen/mcino-Introduction-to-Git-and-GitHub",
