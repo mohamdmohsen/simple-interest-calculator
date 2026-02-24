@@ -1,4 +1,4 @@
-# simple-interest-calculator
+# github-final-project
 A simple tool to calculate interest based on the principal amount, rate, and time.
 
 ## Formula
